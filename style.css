@@ -1,0 +1,119 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #eeebeb;
+}
+
+nav
+{
+    background-color: white;
+}
+#lpu
+{
+    width: 350px;
+
+}
+#bar
+{
+    width: 100%;
+    height: 10  0px;
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+}
+
+#bar ul
+{
+
+ margin-left: auto;
+ margin-top: 20px;
+ display: flex;
+ line-height: 80px;
+
+}
+
+#bar ul li
+{
+    display: inline;
+    padding-right:30px ;
+    font-size: large;
+}
+
+#self h2
+{
+    padding-top: 20px;
+    margin: 0%;
+
+    padding-right:10px;
+}
+
+#self h3
+{
+    padding: 0px;
+    margin: 0%;
+    padding-right:10px;
+    color: darkgrey;
+}
+
+
+#selfimg{
+    height: 80px;
+    overflow: hidden;
+    padding-right: 20px;
+
+}
+
+#selfimg img{
+    margin: 0 auto;
+    height: 80px;
+    border-radius: 60%;  
+}
+
+span
+{
+    padding: 0px;
+    margin-top: 85px;
+    height: fit-content;
+    margin-left: -80px;
+    padding-right: 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+table
+{
+    margin: 100px auto;
+    background-color: rgb(195, 193, 193);
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+.color
+{
+    background-color: white;
+}
+
+table tr td
+{
+   margin: 0px;
+   text-align: center;
+   padding: 10px;
+}
+
+p{
+    margin: auto;
+    width: 90%;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover 
+{
+    color: blue;
+}
